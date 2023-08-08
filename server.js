@@ -27,7 +27,7 @@ async function scrapeTweet(tweetUrl) {
   const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
 
-  await page.goto(tweetUrl, { waitUntil: "networkidle0" });
+  await page.goto(tweetUrl, { waitUntil: "networkidle0", timeout: 100000 });
 
   const selector = "[data-testid='tweet']";
 
