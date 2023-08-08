@@ -35,7 +35,7 @@
 7. Change the `tweetUrl` in the JSON body to extract the content from a different tweet. The `tweetUrl` should be in the specified format "https://twitter.com/{username}/status/{somenumber}"
 
 8. Here is the request with Postman:
-   ![Screenshot](https://github.com/ABHIGYAN-MOHANTA/xtwitter/assets/110360901/c4618652-8767-4abd-b70b-c6644290fbb7)
+   ![Screenshot from 2023-08-08 12-43-07](https://github.com/ABHIGYAN-MOHANTA/xtwitter/assets/110360901/55b46c07-20a6-4843-85a3-a9f2f9994bb6)
 
 9. This is what you should receive:
 
